@@ -5,7 +5,7 @@ const app = express();
 
 mercadoPago.configure({
     sendbox: true, //seta como teste, o false diria que o projeto ja está funcionando
-    access_token: 'TEST-5479853260404955-072711-1d444b3b776d0098560f9b18cc793787-545010129'
+    access_token: 'segredo' //token de teste gerado pelo mercadoPAGO
 })
 
 app.get('/', (req, res) =>{
